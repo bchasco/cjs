@@ -9,7 +9,6 @@
 #' @param initLoc Tributary origin
 #' @param Sigma_Loc Covariance for the locations
 #' @param distMat River distance between locations
-#' @param nTurbine Number of turbines
 #' @param nYear Number of years of data
 #' @param beta Covariate parameters
 #' @param X Covariates
@@ -27,7 +26,6 @@ cjs.sim <- function(phi,
                     nLoc = NA,
                     Sigma_Loc = NA,
                     distMat = NA,
-                    nTurbine = NA,
                     beta = NA,
                     X = NA,
                     Sigma_X = NA,
